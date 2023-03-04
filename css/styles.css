@@ -408,6 +408,9 @@ h4 {
   display: inline-block;
   margin-right: 12px;
 }
+.form-button {
+  padding: 10px 24px 10px 42px;
+}
 .portfolio-button {
   background-color: var(--portfolioButton);
   border-radius: 4px;
