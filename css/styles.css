@@ -402,6 +402,11 @@ h4 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--backgroundColorSecondary);
+  color: var(--colorWhite);
+}
+.footer-label {
+  display: inline-block;
+  margin-right: 12px;
 }
 .portfolio-button {
   background-color: var(--portfolioButton);
