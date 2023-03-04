@@ -374,7 +374,7 @@ h4 {
 .underline {
   text-decoration: underline;
 }
-.footer-icon-heading {
+.footer-elements-heading {
   margin: 12px 0 20px 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -390,7 +390,9 @@ h4 {
   background: rgba(255, 255, 255, 0.1);
   fill: var(--colorWhite);
 }
-
+.footer-form {
+  margin-left: 8px;
+}
 .portfolio-button {
   background-color: var(--portfolioButton);
   border-radius: 4px;
