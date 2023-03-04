@@ -342,7 +342,7 @@ h4 {
 }
 .footer-flex {
   display: flex;
-  gap: 70px;
+  align-items: baseline;
 }
 
 .address-box {
@@ -375,7 +375,7 @@ h4 {
   text-decoration: underline;
 }
 .footer-elements-heading {
-  margin: 12px 0 20px 0;
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -386,12 +386,13 @@ h4 {
 .no-margin {
   margin: 0;
 }
+.footer-social {
+  margin-left: 70px;
+  margin-right: 78px;
+}
 .footer-icon {
   background: rgba(255, 255, 255, 0.1);
   fill: var(--colorWhite);
-}
-.footer-form {
-  margin-left: 8px;
 }
 .input-email {
   width: 358px;
