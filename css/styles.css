@@ -638,8 +638,13 @@ h4 {
   bottom: 14px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-label-textarea {
+.modal-label-feedback {
   display: block;
   position: relative;
   margin-bottom: 20px;
+}
+.modal-textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
 }
