@@ -653,7 +653,6 @@ h4 {
 }
 .modal-label-checkbox {
   display: flex;
-  justify-content: start;
   align-items: center;
   margin-bottom: 30px;
 }
