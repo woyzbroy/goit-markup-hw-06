@@ -626,7 +626,20 @@ h4 {
   bottom: 14px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-person:hover,
-.svg-person:focus {
-  fill: var(--selectionColor);
+.svg-telephone {
+  position: absolute;
+  left: 14.27px;
+  bottom: 14px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-email {
+  position: absolute;
+  left: 13.5px;
+  bottom: 14px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-label-textarea {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
 }
