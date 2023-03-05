@@ -661,3 +661,16 @@ h4 {
 .modal-textarea:focus {
   border-color: var(--selectionColor);
 }
+.modal-checkbox-text {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+}
+.modal-checkbox-text a {
+  color: var(--selectionColor);
+}
+input[type='checkbox'] {
+  cursor: pointer;
+}
