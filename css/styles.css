@@ -578,3 +578,12 @@ h4 {
   color: var(--colorWhite);
   background-color: var(--selectionColor);
 }
+.modal-heading {
+  margin: 40px 40px 30px 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--socialsColor);
+}
