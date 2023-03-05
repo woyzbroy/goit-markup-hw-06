@@ -344,11 +344,11 @@ h4 {
   display: flex;
   align-items: baseline;
 }
-
 .address-box {
   margin: 20px 0 0 0;
 }
 .address-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -359,6 +359,7 @@ h4 {
   list-style: none;
 }
 .contact-link-footer {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
