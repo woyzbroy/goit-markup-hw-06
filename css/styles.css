@@ -550,7 +550,6 @@ h4 {
   top: 50%;
   left: 50%;
   width: 528px;
-  height: 581px;
   background-color: var(--colorWhite);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -619,7 +618,6 @@ h4 {
 .modal-input:focus {
   border-color: var(--selectionColor);
 }
-
 .svg-person {
   position: absolute;
   left: 15px;
@@ -661,6 +659,17 @@ h4 {
 .modal-textarea:focus {
   border-color: var(--selectionColor);
 }
+.modal-label-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 30px;
+}
+.modal-checkbox {
+  width: 16px;
+  height: 15px;
+}
 .modal-checkbox-text {
   display: inline-block;
   font-size: 14px;
@@ -673,4 +682,28 @@ h4 {
 }
 input[type='checkbox'] {
   cursor: pointer;
+}
+.modal-button {
+  display: block;
+  margin: 0 auto;
+  text-transform: capitalize;
+  padding: 10px 76px;
+  color: var(--colorWhite);
+  background-color: var(--selectionColor);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-style: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button:hover,
+.modal-button:focus {
+  color: var(--fontColorMain);
+  background-color: var(--portfolioButton);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
