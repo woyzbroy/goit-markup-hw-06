@@ -588,12 +588,12 @@ h4 {
   letter-spacing: 0.03em;
   color: var(--socialsColor);
 }
-.label-name {
+.modal-label {
   display: block;
   position: relative;
   margin-bottom: 10px;
 }
-.label-name:hover {
+.modal-label:hover {
   fill: var(--selectionColor);
 }
 .modal-input-heading {
