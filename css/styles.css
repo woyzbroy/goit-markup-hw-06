@@ -11,7 +11,6 @@
   --backgroundBorderBottom: #ececec;
   --backgroundProductCard: #eeeeee;
   --socialIcon: #afb1b8;
-  --textareaPlaceholder: rgba(117, 117, 117, 0.5);
 }
 body {
   background-color: var(--colorWhite);
@@ -658,7 +657,6 @@ h4 {
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
-  color: var(--textareaPlaceholder);
 }
 .modal-textarea:hover,
 .modal-textarea:focus {
