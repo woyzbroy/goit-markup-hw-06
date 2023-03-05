@@ -665,6 +665,7 @@ h4 {
 }
 .modal-checkbox-icon {
   z-index: 1;
+  cursor: pointer;
 }
 .modal-checkbox-text {
   display: block;
