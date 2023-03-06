@@ -403,7 +403,13 @@ h4 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--backgroundColorSecondary);
+}
+.footer-input::placeholder {
   color: var(--colorWhite);
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .footer-label {
   display: inline-block;
