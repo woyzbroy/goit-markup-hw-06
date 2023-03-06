@@ -656,7 +656,7 @@ h4 {
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
-  opacity: 0.5;
+  color: rgba(117, 117, 117, 0.5);
 }
 .modal-textarea:hover {
   border-color: var(--selectionColor);
