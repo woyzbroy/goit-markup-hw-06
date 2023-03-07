@@ -620,7 +620,7 @@ h4 {
 .modal-input:hover,
 .modal-input:focus {
   border-color: var(--selectionColor);
-  outline-color: var(--selectionColor);
+  outline: none;
 }
 .modal-input:focus ~ .modal-input-icon,
 .modal-input:hover ~ .modal-input-icon {
@@ -658,7 +658,7 @@ h4 {
 .modal-textarea:hover,
 .modal-textarea:focus {
   border-color: var(--selectionColor);
-  outline-color: var(--selectionColor);
+  outline: none;
 }
 .modal-label-checkbox {
   display: inline-flex;
