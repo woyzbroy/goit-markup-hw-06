@@ -396,6 +396,7 @@ h4 {
   fill: var(--colorWhite);
 }
 .footer-input {
+  color: var(--colorWhite);
   width: 358px;
   height: 50px;
   padding-left: 16px;
