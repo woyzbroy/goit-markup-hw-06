@@ -668,9 +668,9 @@ h4 {
 .modal-checkbox-input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+  height: 15px;
+  width: 16px;
+  border-radius: 2px;
 }
 .modal-checkbox-icon {
   position: absolute;
