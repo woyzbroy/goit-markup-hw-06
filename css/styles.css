@@ -597,10 +597,6 @@ h4 {
   position: relative;
   margin-bottom: 10px;
 }
-.modal-label:hover,
-.modal-label:focus {
-  fill: var(--selectionColor);
-}
 .modal-input-heading {
   display: block;
   text-transform: capitalize;
@@ -627,7 +623,8 @@ h4 {
 .modal-input:focus-within {
   outline-color: var(--selectionColor);
 }
-.modal-label:focus-within svg {
+.modal-input:focus ~ .modal-input-icon,
+.modal-input:hover ~ .modal-input-icon {
   fill: var(--selectionColor);
 }
 .modal-input-icon {
